@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "Shubham Panchal"
-theme = 'Papermod'
+theme = 'github.com/adityatelange/hugo-PaperMod'
 
 
 [params] 
