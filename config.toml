@@ -1,0 +1,39 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Shubham Panchal"
+theme = 'Papermod'
+
+
+[params] 
+title = "Shubham Panchal - Blogpost"
+description = "Blogs on Machine Learning, Python, Android development and Mathematics"
+keywords = [ "machine learning" , "android" , "python" ]
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = false
+
+[params.homeInfoParams]
+Title = "Hi there 👋, Welcome to my blog!"
+Content = "😇 Loves Android and ML, 💡 answering your thought-provoking questions in ML intuitively, 👨‍🎓 aspiring ML researcher"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/shubham-panchal-82ba92160"
+
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/10878733/shubham-panchal"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/shubham0204"
+
+[[params.socialIcons]]
+name = "medium"
+url = "https://equipintelligence.medium.com"
+
+[markup.goldmark.renderer]
+unsafe = true
