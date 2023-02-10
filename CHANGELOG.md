@@ -1,1 +1,1 @@
-- Updated theme to `hugo-PaperMod`
+- Updated `baseUrl` to `shubham0204.github.io/blogpost`
