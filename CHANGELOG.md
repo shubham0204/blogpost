@@ -1,1 +1,1 @@
-- Added `github.com/adityatelange/hugo-PaperMod`
+- Updated theme to `hugo-PaperMod`
