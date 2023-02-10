@@ -2,6 +2,7 @@
 title: "Using Websockets To Run Terminal Commands From Android Apps"
 description: "Building Websockets with FastAPI and using them in Android apps"
 date: 2023-02-10T08:42:59+05:30
+showToc: true
 draft: false
 ---
 
