@@ -1,0 +1,64 @@
+baseUrl: "https://shubham0204.github.io/blogpost"
+languageCode: en-us
+title: Shubham Panchal's Blogpost
+theme: "Papermod"
+
+params:
+  title: Shubham Panchal's Blogpost
+  description: "Shubham Panchal's Blogpost"
+  keywords: [Blog, Portfolio, Machine Learning, Android App Development]
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B!"
+    Content: "Welcome to my blogpost! Explore blogs on programming and developer productivity, and do let me know if they help you. I also write on [Medium.com](https://stackoverflow.com/users/13546426/shubham-panchal)"
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/shubham-panchal-82ba92160/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/13546426/shubham-panchal"
+    - name: github
+      url: "https://github.com/shubham0204"
+
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: website
+      name: Website
+      url: https://shubham0204.github.io
+      weight: 30
