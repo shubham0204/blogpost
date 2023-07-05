@@ -1,7 +1,7 @@
 baseUrl: "https://shubham0204.github.io/blogpost"
 languageCode: en-us
 title: Shubham Panchal's Blogpost
-theme: "hugo-PaperMod"
+theme: "PaperMod"
 
 params:
   title: Shubham Panchal's Blogpost
