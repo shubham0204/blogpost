@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   title: Shubham Panchal's Blogpost
   description: "Shubham Panchal's Blogpost"
-  keywords: [Blog, Portfolio, Machine Learning, Android App Development]
+  keywords: [Blog, Machine Learning, Android App Development]
   defaultTheme: auto
   disableThemeToggle: false
 
