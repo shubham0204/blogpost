@@ -7,6 +7,7 @@ params:
   title: Shubham Panchal's Blogpost
   description: "Shubham Panchal's Blogpost"
   keywords: [Blog, Machine Learning, Android App Development]
+  env: production
   defaultTheme: auto
   disableThemeToggle: false
 
