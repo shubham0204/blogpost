@@ -7,15 +7,12 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 ### 📄 Index
 - programming
 	- [A Glimpse Into Bare Metal Programming](/programming/bare-metal-programming)
- 	<!-- - [What Are Memory Mapped Files?](/programming/memory-mapped-files) -->
+	<!-- - [What Are Memory Mapped Files?](/programming/memory-mapped-files) -->
 - meta
-	- [About Me](/meta/About-Me)
-	- [Projects](/meta/Projects)
+	- [About Me](/meta/about-me)
+	- [Projects](/meta/projects)
 
 ### 📨 Reach out
 - [LinkedIn](https://www.linkedin.com/in/shubham-panchal-82ba92160/)
 - [Reddit](https://www.reddit.com/user/shubham0204_dev/)
 - Email: [panchalshubhamdev@gmail.com](mailto:panchalshubhamdev@gmail.com)
-
-
-
