@@ -1,5 +1,21 @@
 ---
-title: Welcome to Shubham's Blog!
+title: Welcome to Shubham's Blog! 👋🏻
 ---
+
+Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring backend, low-level programming recently. Blogging is my hobby, with my *main* blog on [Medium.com](https://equipintelligence.medium.com/) where I write on ML, Math and Android development (some other topics occasionally).
+
+### 📄 Index
+- programming
+	- [A Glimpse Into Bare Metal Programming](/programming/bare-metal-programming)
+ 	<!-- - [What Are Memory Mapped Files?](/programming/memory-mapped-files) -->
+- meta
+	- [About Me](/meta/About-Me)
+	- [Projects](/meta/Projects)
+
+### 📨 Reach out
+- [LinkedIn](https://www.linkedin.com/in/shubham-panchal-82ba92160/)
+- [Reddit](https://www.reddit.com/user/shubham0204_dev/)
+- Email: [panchalshubhamdev@gmail.com](mailto:panchalshubhamdev@gmail.com)
+
 
 
