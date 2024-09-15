@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       siteId: "nzcyqHCYpPUcDZz3yZ4a"
     },
     locale: "en-US",
-    baseUrl: "shubham0204.github.io",
+    baseUrl: "https://shubham0204.github.io/blogpost",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
