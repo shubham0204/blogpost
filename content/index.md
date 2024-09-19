@@ -6,8 +6,9 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 
 ### 📄 Index
 - programming
-	- [A Glimpse Into Bare Metal Programming](/programming/bare-metal-programming)
-	<!-- - [What Are Memory Mapped Files?](/programming/memory-mapped-files) -->
+	- Sept 2024
+		- [Building JNI bindings For clip.cpp](/programming/android-sample-clip-cpp)
+		- [A Glimpse Into Bare Metal Programming](/programming/bare-metal-programming)
 - meta
 	- [About Me](/meta/about-me)
 	- [Projects](/meta/projects)
