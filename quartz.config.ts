@@ -12,8 +12,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "tinylytics",
-      siteId: "nzcyqHCYpPUcDZz3yZ4a"
+      provider: 'google',
+      tagId: 'G-HY4KPZ60E2'
     },
     locale: "en-US",
     baseUrl: "https://shubham0204.github.io/blogpost",
