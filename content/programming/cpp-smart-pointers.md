@@ -5,6 +5,8 @@ tags:
   - programming
   - cpp
 ---
+![[smart-pointers-banner.png]]
+
 Smart pointers are types of template classes in C++ that provide a secure way to allocate and de-allocate memory. By *''smart'*, we mean that these pointers are lifetime-aware and *know* when to de-allocate themselves, without explicitly calling `delete` or `delete[]`. In larger codebases, keeping track of all heap-allocated objects is difficult and failing to call `delete` at the right instances can lead to memory leaks or undefined behavior. 
 
 Smart pointer classes encapsulate the raw pointer holding the address of the object in memory along with some added mechanisms that help them automatically deallocate the memory through the raw pointer. They also help in managing the ownership of the object which dictates how the object will be modified or de-allocated. In this short blog, we'll explore four smart pointer classes, `unique_ptr`, `shared_ptr` and `weak_ptr`.  
