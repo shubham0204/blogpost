@@ -7,7 +7,7 @@ tags:
 ---
 Smart pointers are types of template classes in C++ that provide a secure way to allocate and de-allocate memory. By *''smart'*, we mean that these pointers are lifetime-aware and *know* when to de-allocate themselves, without explicitly calling `delete` or `delete[]`. In larger codebases, keeping track of all heap-allocated objects is difficult and failing to call `delete` at the right instances can lead to memory leaks or undefined behavior. 
 
-Smart pointer classes encapsulate the raw pointer holding the address of the object in memory along with some added mechanisms that help them automatically deallocate the memory through the raw pointer. They also help in managing the ownership of the object which dictates how the object will be modified or de-allocated. In this short blog, we'll explore four smart pointer classes, `auto_ptr`, `unique_ptr`, `shared_ptr` and `weak_ptr`.  
+Smart pointer classes encapsulate the raw pointer holding the address of the object in memory along with some added mechanisms that help them automatically deallocate the memory through the raw pointer. They also help in managing the ownership of the object which dictates how the object will be modified or de-allocated. In this short blog, we'll explore four smart pointer classes, `unique_ptr`, `shared_ptr` and `weak_ptr`.  
 
 ## RAII (Resource Acquisition Is Initialization)
 [RAII](https://en.cppreference.com/w/cpp/language/raii) is a principle which originated in C++ and then used in other languages like Rust and Ada. It suggests that the memory acquired by an entity (an object) must be tied to the lifetime of the object. Meaning, when the object is created, its memory must be initialized and when the lifetime of the object ends, the memory must be returned back (or the object must be de-allocated). **RAII is also called 'Scope Bound Resource Management**, which largely justifies the principle. 
@@ -35,15 +35,15 @@ public:
     }
 }
 ```
-## Using `auto_ptr`
-An object enclosed in an [`auto_ptr`](https://en.cppreference.com/w/cpp/memory/auto_ptr) gets deleted when the `auto_ptr` instance (smart pointer instance) goes out of scope. Here's a snippet of code that demonstrates one of the use-cases of an `auto_ptr`,
+## Using `unique_ptr`
+An object enclosed in an [`unique_ptr`](https://en.cppreference.com/w/cpp/memory/unique_ptr) gets deleted when the `unique_ptr` instance (smart pointer instance) goes out of scope. Here's a snippet of code that demonstrates one of the use-cases of an `unique_ptr`,
 ```cpp
 void download() {
     // A dumb pointer
     HTTPConnection* connection1 = new HTTPConnection("www.google.com", 8000);
 
-    // A smart pointer (auto_ptr)
-    std::auto_ptr<HTTPConnection> connection2(new HTTPConnection("www.github.com", 8000));
+    // A smart pointer (unique_ptr)
+    std::unique_ptr<HTTPConnection> connection2(new HTTPConnection("www.github.com", 8000));
 
     // send/receive data from the connection
     // forgot to deallocate connection1 and connection2 here ...
@@ -98,41 +98,7 @@ Segmentation fault
 ```
 Notice, when deallocating `connection_copy` leads to a `SEGFAULT` as the underlying object is  already deleted by `delete connection`. This is an example of the [double free memory leak](https://en.wikipedia.org/wiki/Memory_safety#:~:text=Double%20free%20%E2%80%93%20repeated%20calls%20to%20free%20may%20prematurely%20free%20a%20new%20object%20at%20the%20same%20address.%20If%20the%20exact%20address%20has%20not%20been%20reused%2C%20other%20corruption%20may%20occur%2C%20especially%20in%20allocators%20that%20use%20free%20lists.).
 
-`auto_ptr` comes with *destructive copy semantics*, meaning, when a `auto_ptr` is copied, the original `auto_ptr` instance gets invalidated (set to `nullptr`) and the copy gets the valid address of the object. Thus, the ownership of the object is transferred completely to the new copy, thus preserving the *one-object, one-owner* principle.
-```cpp
-std::auto_ptr<HTTPConnection> alloc_return_auto_ptr(
-    const std::string& host,
-    int port
-) {
-    std::auto_ptr<HTTPConnection> connection(new HTTPConnection(host, port));
-    return connection;
-}
-
-int main(int argc, char* argv[]) {
-    std::auto_ptr<HTTPConnection> connection = alloc_return_auto_ptr("www.google.com", 8000);
-    std::cout << connection.get() << '\n';
-
-    std::auto_ptr<HTTPConnection> connection_copy = connection;
-    std::cout << connection.get() << '\n';
-    std::cout << connection_copy.get() << '\n';
-
-    return 0;
-}
-```
-Output:
-```
-Connection (www.google.com,8000) created
-0x55d4dc4aaeb0
-0
-0x55d4dc4aaeb0
-Connection (www.google.com,8000) destroyed
-```
-Notice, printing `connection.get()` before creating a copy and after creating a copy yields different values. `connection` is set to `0` after `connection_copy` is created. 
-> [!CAUTION]
-> `std::auto_ptr` was deprecated in C++11 and removed in C++17, in the favor of `std::unique_ptr` and `std::shared_ptr`.
-
-## Using `unique_ptr`
-A [`unique_ptr`](https://en.cppreference.com/w/cpp/memory/unique_ptr) can be used as a replacement for `auto_ptr` as it has the same goal for maintaining one-owner per heap-allocated object. We can understand `unique_ptr` by understanding its differences from the now-deprecated `auto_ptr`.  The following code does not compile,
+A [`unique_ptr`](https://en.cppreference.com/w/cpp/memory/unique_ptr) does not allow copying objects to sustain the one-owner per object rule. The following code does not compile,
 ```cpp
 std::unique_ptr<HTTPConnection> connection(new HTTPConnection("www.github.com", 8081));
 std::unique_ptr<HTTPConnection> connection1 = connection;
