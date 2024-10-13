@@ -6,8 +6,9 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 
 ## 📄 Index
 - 💻 programming
-	- Sept 2024
+	- October 2024
 		- [Exploring Smart Pointers in C++](/programming/cpp-smart-pointers)
+	- Sept 2024
 		- [Real-Time Operating Systems and Linux](/programming/rtos-linux)
 		- [Building JNI bindings For clip.cpp](/programming/android-sample-clip-cpp)
 		- [A Glimpse Into Bare Metal Programming](/programming/bare-metal-programming)
