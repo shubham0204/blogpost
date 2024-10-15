@@ -7,6 +7,7 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 ## 📄 Index
 - 💻 programming
 	- October 2024
+		- [Building RAG Apps with the ObjectBox LlamaIndex Integration](/programming/objectbox-llamaindex)
 		- [Exploring Smart Pointers in C++](/programming/cpp-smart-pointers)
 	- Sept 2024
 		- [Real-Time Operating Systems and Linux](/programming/rtos-linux)
