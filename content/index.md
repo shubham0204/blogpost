@@ -1,11 +1,13 @@
 ---
-title: 🧰 Welcome to Shubham's Knowledge Base! 👋🏻
+title: Welcome to Shubham's Blog! 👋🏻
 ---
 
-Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring backend, low-level programming recently. Blogging is my hobby, with my *main* blog on [Medium.com](https://equipintelligence.medium.com/) where I write on ML, Math and Android development (some other topics occasionally).
+Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring backend, low-level programming recently. Blogging is my hobby, with my another blog on [Medium.com](https://equipintelligence.medium.com/) where I write on ML, Math and Android development (some other topics occasionally).
 
 ## 📄 Index
 - 💻 programming
+	- November 2024
+		- [Exploring mmap and memory-mapped files in C](/programming/memory_mapped_files)
 	- October 2024
 		- [Building RAG Apps with the ObjectBox LlamaIndex Integration](/programming/objectbox-llamaindex)
 		- [Exploring Smart Pointers in C++](/programming/cpp-smart-pointers)
