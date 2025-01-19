@@ -8,7 +8,7 @@ tags:
   - rag
 ---
 ## Introduction
-### What s RAG and why is it useful?
+### What is RAG and why is it useful?
 
 In the rapidly evolving landscape of AI and machine learning, Retrieval-Augmented Generation (RAG) has emerged as a groundbreaking approach that combines the best of two worlds: retrieval-based models and generative AI. It allows AI models to augment their responses by dynamically retrieving relevant information from external sources—ensuring responses are both contextually rich and grounded in facts. The input data is represented as vectors or embeddings that capture the semantic meaning of the data. These vectors can also be compared with other embeddings, thus quantifying the similarity between the data instances. Vector databases provide specialized indexes that enable faster retrieval of vectors similar to a given query vector, thus finding information that is most relevant to the given query. 
 
