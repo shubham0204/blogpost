@@ -6,6 +6,8 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 
 ## 📄 Index
 - 💻 programming
+	- January 2025
+		- [Model2Vec - Faster Sentence Transformers In Rust](/programming/model2vec-rs)
 	- November 2024
 		- [Exploring mmap and memory-mapped files in C](/programming/memory_mapped_files)
 	- October 2024
