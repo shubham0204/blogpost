@@ -6,6 +6,8 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 
 ## 📄 Index
 - 💻 programming
+	- March 2025
+		- [Apple Computing Stack - A Glossary](/programming/apple-computing-stack)
 	- January 2025
 		- [Model2Vec - Faster Sentence Transformers In Rust](/programming/model2vec-rs)
 	- November 2024
