@@ -6,6 +6,8 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 
 ## 📄 Index
 - 💻 programming
+	- May 2025
+		- [Language Models](/programming/language-modelling)
 	- March 2025
 		- [Apple Computing Stack - A Glossary](/programming/apple-computing-stack)
 	- January 2025
