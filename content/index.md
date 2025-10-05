@@ -7,6 +7,7 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 ## Index
 - programming
 	- 2025
+		- [Memory Tagging in Arm v8](/programming/memory-tagging-armv8)
 		- [Why Do We Get Ethernet II Frames Over Wi-Fi On MacOS?](/programming/ethernet-frames-for-wifi)
 		- [Educational: Remote Code Execution With Buffer Overflow In C](/programming/rce-with-buffer-overflow)
 		- [Language Models](/programming/language-modelling)
