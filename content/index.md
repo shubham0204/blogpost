@@ -6,6 +6,8 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 
 ## Index
 - programming
+    - 2026
+        - [Setting up the programming environment for ESP32-C3 on macOS](/programming/esp32-c3-setup-macos)
 	- 2025
 		- [Exploring the AndroidX WebGPU API in Kotlin](/programming/androidx-webgpu)
 		- [Memory Tagging in Arm v8](/programming/memory-tagging-armv8)
