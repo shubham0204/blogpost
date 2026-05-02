@@ -7,6 +7,7 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 ## Index
 - programming
     - 2026
+	    - [Running FaceNet in Android using ExecuTorch](/programming/convert-facenet-executorch)
         - [Setting up the programming environment for ESP32-C3 on macOS](/programming/esp32-c3-setup-macos)
 	- 2025
 		- [Exploring the AndroidX WebGPU API in Kotlin](/programming/androidx-webgpu)
