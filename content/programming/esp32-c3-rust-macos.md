@@ -3,6 +3,7 @@ title: Setting up Rust for ESP32-C3 on macOS
 tags:
   - programming
   - embedded-systems
+  - esp32
 ---
 Install the stable [Rust toolchain](https://rust-lang.org/tools/install/) on your Mac. As the ESP32-C3 uses the RISCV ISA, we need to add the [`riscv32imc` target](https://doc.rust-lang.org/rustc/platform-support/riscv32-unknown-none-elf.html) to the toolchain:
 

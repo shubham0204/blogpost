@@ -3,6 +3,7 @@ title: Setting up the programming environment for ESP32-C3 on macOS
 tags:
   - programming
   - embedded-systems
+  - esp32
 ---
 ## Installing the ESP-IDF Installation Manager (`eim`)
 To install ESP-IDF on macOS, we first need [ESP-IDF Installation Manager (`eim`)](https://docs.espressif.com/projects/idf-im-ui/en/latest/)that helps us install and manage different versions of ESP-IDF on our system. For macOS, we follow the recommended method of using Homebrew for installation:
