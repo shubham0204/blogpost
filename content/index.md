@@ -7,6 +7,7 @@ Hi, I'm Shubham Panchal! I work with ML systems, Android apps and exploring back
 ## Index
 - programming
     - 2026
+        - [Building a `gzip` based text classifier for Raspberry Pi Pico 2W](/programming/gzip-text-classifier-rpipico)
 	    - [Setting up Rust for ESP32-C3 on macOS](/programming/esp32-c3-rust-macos)
 	    - [Running FaceNet in Android using ExecuTorch](/programming/convert-facenet-executorch)
         - [Setting up the programming environment for ESP32-C3 on macOS](/programming/esp32-c3-setup-macos)
